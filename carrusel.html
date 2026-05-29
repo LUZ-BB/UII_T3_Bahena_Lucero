@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Perritos</title>
 </head>
 <body>
 
@@ -13,17 +13,6 @@
 <button type="button" id="anterior"> <-----</button>
 <button type="button" id="siguiente">-----></button>
 
-<script>
-    let indice=0;
-    let imagenes = ["img/1.png","img/2.png","img/3.png","img/4.png","img/5.png"];
-
-    document.getElementById("siguiente").addEventListener("click",()=> {
-        if (indice < 5){
-            indice++;
-        }
-
-        document.getElementById("img").setAttribute("src",imagenes[indice]);
-    })
-</script>
+<script src="js/carrusel.js"></script>
 </body>
 </html>
